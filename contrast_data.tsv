@@ -1,0 +1,104 @@
+contrast 	task	neurovault image	name	Terms
+go-critical minus go-noncritical	conditional stop signal task	3039	task002 009 go-critical minus go-noncritical	proactive control, selective control
+unsucc minus succ stop	conditional stop signal task	3040	task002 008 unsucc minus succ stop	error detection
+succstop minus go	conditional stop signal task	3041	task002 010 succstop minus go	selective control, oddball detection, response inhibition, auditory tone detection
+go	stop signal task	143	task001 001 go	visual form recognition, response selection, response execution, proactive control
+go-noncritical	conditional stop signal task	144	task002 002 go-noncritical	visual form recognition, response selection, response execution, proactive control, selective control
+successful stop	stop signal task	147	task001 002 successful stop	visual form recognition, response selection, response execution, proactive control, oddball detection, response inhibition, auditory tone detection
+failed stop	stop signal task	146	task001 003 failed stop	visual form recognition, response selection, response execution, proactive control, oddball detection, response inhibition, auditory tone detection, error detection
+successful stop-critical	conditional stop signal task	149	task002 003 successful stop-critical	visual form recognition, response selection, response execution, proactive control, selective control, oddball detection, response inhibition, auditory tone detection
+failed stop-critical	conditional stop signal task	142	task002 004 failed stop-critical	visual form recognition, response selection, response execution, proactive control, selective control, oddball detection, response inhibition, auditory tone detection, error detection
+failed stop-noncritical	conditional stop signal task	154	task002 005 failed stop-noncritical	vision form recognition, response selection, response execution, proactive control, selective control, oddball detection, auditory tone detection
+Faces	Emotion Processing fMRI Task Paradigm	3129	tfMRI EMOTION FACES zstat1	emotional face recognition, response selection, response execution, feature comparison
+Shapes	Emotion Processing fMRI Task Paradigm	3131	tfMRI EMOTION SHAPES zstat1	visual form recognition, response selection, response execution, feature comparison
+Random Interaction	Social Cognition fMRI Task Paradigm	3179	tfMRI SOCIAL RANDOM zstat1	visual form recognition, spatial attention, motion detection, response selection, response execution, animacy decision
+Mental Interaction - Random Interaction	Social Cognition fMRI Task Paradigm	3180	tfMRI SOCIAL TOM-RANDOM zstat1	animacy perception
+Matching	Relational Processing fMRI Task Paradigm	3173	tfMRI RELATIONAL MATCH zstat1	visual pattern recognition, visual form recognition, feature comparison, response selection, response execution
+Relational Processing	Relational Processing fMRI Task Paradigm	3175	tfMRI RELATIONAL REL zstat1	visual pattern recognition, visual form recognition, feature comparison, response selection, response execution, relational comparison
+Relational Processing minus Matching	Relational Processing fMRI Task Paradigm	8820	tfMRI RELATIONAL REL minus MATCHING	relational comparison
+0-back Face	Working Memory fMRI Task Paradigm	3186	tfMRI WM 0BK FACE zstat1	vision face recognition, response selection, response execution, face maintenance
+0-back Place	Working Memory fMRI Task Paradigm	3187	tfMRI WM 0BK PLACE zstat1	visual scene recognition, response selection, response execution, place maintenance
+0-back Body	Working Memory fMRI Task Paradigm	3185	tfMRI WM 0BK BODY zstat1	visual body recognition, response selection, response execution, body maintenance
+0-back Tool	Working Memory fMRI Task Paradigm	3188	tfMRI WM 0BK TOOL zstat1	visual tool recognition, response selection, response execution, tool maintenance
+2-back Body	Working Memory fMRI Task Paradigm	3191	tfMRI WM 2BK BODY zstat1	visual body recognition, response selection, response execution, body maintenance, updating
+2-back Face	Working Memory fMRI Task Paradigm	3192	tfMRI WM 2BK FACE zstat1	visual face recognition, response selection, response execution, face maintenance, updating
+2-back Place	Working Memory fMRI Task Paradigm	3193	tfMRI WM 2BK PLACE zstat1	visual place recognition, response selection, response execution, place maintenance, updating
+2-back Tool	Working Memory fMRI Task Paradigm	3194	tfMRI WM 2BK TOOL zstat1	visual tool recognition, response selection, response execution, tool maintenance, updating
+Look_Neutral_Stim	emotional regulation task (openfmri ds108)	2863	task001 cope004 tstat1	visual recognition
+Reapp_Neg_Stim_gt_Look_Neg_Stim	emotional regulation task (openfmri ds108)	2866	task001 cope024 tstat1	emotional reappraisal
+Look Neg Stim	emotional regulation task (openfmri ds108)	8727	task001 cope05 Look Neg Stim	visual recognition, negative emotion
+Reapp Neg Rating	emotional regulation task (openfmri ds108)	8730	task001 cope09 Reapp Neg Rating	emotional self-evaluation, response selection, response execution, visual word recognition, numerical scale judgment
+parametric gain	mixed gambles task	4	task001_cope02_parametric gain	potential monetary reward
+task minus baseline	mixed gambles task	3	task001_cope01_task	visual number recognition, response selection, response execution, economic value processing, risk processing, confidence judgment
+distance from indifference	mixed gambles task	8718	task001_cope04_distance from indifference	decision certainty
+parametric loss	mixed gambles task	8719	task001_cope06_neg_loss_param	potential monetary loss
+task	deterministic classification	135	task002_001_task.nii.gz	visual form recognition, response selection, response execution, categorization
+classification-deterministic	classification probe without feedback	139	task003_002_feedback.nii.gz	color recognition, visual form recognition, response execution, response selection, categorization
+classification-probabilistic	classification probe without feedback	140	task003_001_task.nii.gz	color recognition, visual form recognition, response execution, response selection, categorization
+task	Probabilistic classification task	141	task001_001_task.nii.gz	visual form recognition, response selection, response execution, categorization
+feedback	Probabilistic classification task	136	task001_002_feedback.nii.gz	visual word recognition, error detection, reinforcement learning
+feedback	deterministic classification	138	task002_002_feedback.nii.gz	visual word recognition, error detection, reinforcement learning
+words	word one-back task	186	task001_001_Words.nii.gz	visual word recognition, word maintenance, updating
+scrambled objects	word one-back task	187	task001_003_Scrambled objects.nii.gz	visual pattern recognition, pattern maintenance, updating
+objects	word one-back task	188	task001_002_Objects.nii.gz	visual object recognition, object maintenance, updating
+consonant strings	word one-back task	190	task001_004_Consonant strings.nii.gz	visual string recognition, string maintenance, updating
+cash average	Balloon Analogue Risk Task (BART)	118	task001 cash average	visual object detection, response selection, response execution, feedback, risk aversion
+pumps average	Balloon Analogue Risk Task (BART)	120	task001 pumps average	visual object detection, response selection, response execution, risk seeking
+pumps parametric	Balloon Analogue Risk Task (BART)	122	task001 pumps parametric	reward anticipation, loss anticipation
+explode average	Balloon Analogue Risk Task (BART)	119	task001 explode average	visual object detection, punishment
+pumps average real reaction time	Balloon Analogue Risk Task (BART)	116	task001 pumps average real RT	task difficulty
+all	abstract/concrete judgment: bilingual	2699	model001 task001 cope017 tstat1	visual word recognition, semantic categorization, response selection, response execution
+novel minus repeat	abstract/concrete judgment: bilingual	2700	model001 task001 cope018 tstat1	novelty detection, semantic categorization
+positive feedback	Probabilistic Classification Task	173	task001_001_positive feedback.nii.gz	visual form recognition, visual word recognition, response selection, response execution, categorization, positive feedback processing
+negative feedback	Probabilistic Classification Task	172	task001_002_negative feedback.nii.gz	visual form recognition, visual word recognition, response selection, response execution, categorization, error detection, negative feedback processing
+congruent correct	Eriksen flanker task	183	task001_001_congruent_correct.nii.gz	visual form recognition, response selection, response execution, spatial selective attention
+incorrect minus correct	Eriksen flanker task	177	task001_008_incorrect_vs_correct.nii.gz	error detection
+incongruent minus congruent correct	Eriksen flanker task	178	task001_009_incongruent_vs_congruent_correct.nii.gz	response conflict, resistance to distractor interference
+incorrect minus correct	Simon Task	468	task001_008_incorrect_vs_correct.nii.gz	error detection
+incongruent minus congruent correct	Simon Task	469	task001_009_incongruent_vs_congruent_correct.nii.gz	response conflict
+congruent correct	Simon Task	474	task001_001_congruent_correct.nii.gz	visual color discrimination, response selection, response execution
+auditory standard	oddball task	2723	model001 task001 cope007 tstat1	auditory tone discrimination
+auditory targets minus standards	oddball task	2729	model001 task001 cope008 tstat1	oddball detection, motor response
+visual targets minus standards	oddball task	2731	model001 task002 cope005 tstat1	oddball detection, motor response
+visual standard	oddball task	2718	model001 task002 cope006 tstat1	visual form discrimination, visual color discrimination
+high value go minus no go at probe	cue approach task	110	Fig3B_zstat1.nii.gz	object-based attention, value judgement, appetitive motivation
+no go last scan training run	cue approach task	112	Fig4B_zstat1.nii.gz	visual form recognition
+high value go choice at probe	cue approach task	111	Fig3A_zstat1.nii.gz	visual form recognition, action selection, value judgement, appetitive motivation, object-based attention
+go last scan training run	cue approach task	113	Fig4A_zstat1.nii.gz	auditory tone detection, action selection
+right audio click	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	394	Right button press with an auditory cue	language processing, auditory word comprehension, response selection, response execution
+checkerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	395	Visual Checkboard	visual pattern recognition
+horizontal checkerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	396	Horizontal visual checkerboard	visual pattern recognition
+sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	398	Sentence listening or reading: this capture basic language	language processing
+audio click minus audio sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	399	Button press auditory cue vs sentence listening: this contrast isolates the motor part from an audio stimuli	response selection, response execution
+visual click minus video sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	400	Button press visual cue vs sentence reading. This contrast isolates the motor contribution	response selection, response execution
+left video click	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	401	Left button press visual cue	language processing, reading, response selection, response execution
+Calculation visual cue and sentence reading minus chckerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	402	Calculation Visual Cue and Sentence Reading vs Checkerboard: this contrast isolates high-level processes by removing the low-level visual contribution of the cue	language processing, reading, calculation, number processing
+left click minus right click	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	403	This contrast isolates the left versus right motor. Cue are a mix of audio and visual.	response execution
+horizontal checkerboard minus vertical checkerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	404	This contrast opposed horizontal versus vertical visual checkboards and thus highlights the primary visual cortex. Cues are a mix of auditory and visual.	visual pattern recognition
+video sentences minus checkerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	405	This contrast opposes sentence reading with visual checkerboards, both horizontal and vertical, thus highlighting the high-level reading and language networks	language processing, reading
+left click	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	406	Left Button Press: combination of audio and visual cues	response selection, response execution
+right video click	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	407	Right button press with a visual cue	language processing, reading, response selection, response execution
+computation	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	410	Contrast highlighting high-level calculation / computation	number processing, calculation, reading
+audio sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	412	Sentence listening	language processing, auditory sentence comprehension
+video computation minus video sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	414	Calculation Visual Cue vs sentence reading	number processing ,calculation, language processing (neg.)
+audio computation	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	415	Calculation / computation with auditory cue: simple arithmetic task.	language processing, auditory word comprehension, number processing, calculation
+vertical checkerboard minus horizontal checkerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	416	Vertical vs horizontal flashing visual checkerboard	visual pattern recognition
+computation minus sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	417	Calculation / computation vs Sentences with a mix of audio and visual stimuli. This contrast highlights the highl-level computation network	number processing, computation, language processing (neg.)
+video computation	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	418	Calculation / computation tasks with visual cues: simple arithmetic.	language processing, reading, number processing, computation
+video sentences	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	419	Sentence reading	language processing, reading
+left audio click	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	420	Left button press with auditory cue	language processing, auditory word comprehension, response selection, response execution
+vertical checkerboard	Functional Localizer fMRI Tasks: http://www.cognitiveatlas.org/term/id/trm_553e85265f51e	421	Vertical flashing visual checkerboard	visual pattern recognition
+Happiness judgments on faces	social judgment of faces task	564	2nd level of GLM with regressors for 4 facial judgments and left and right motor responses	face perception, social judgment, emotional salience priming
+Age judgments on faces	social judgment of faces task	561	2nd level of GLM with regressors for 4 facial judgments and left and right motor responses	face perception, social judgment, graded decision making
+Left motor response	social judgment of faces task	565	2nd level of GLM with regressors for 4 facial judgments and left and right motor responses	motor execution
+Attractiveness judgments on faces	social judgment of faces task	562	2nd level of GLM with regressors for 4 facial judgments and left and right motor responses	face perception, social judgment, aesthetic evaluation
+Trustworthiness judgments on faces	social judgment of faces task	563	2nd level of GLM with regressors for 4 facial judgments and left and right motor responses	face perception, social judgment, trait anxiety
+Right motor response	social judgment of faces task	566	2nd level of GLM with regressors for 4 facial judgments and left and right motor responses	motor execution
+Why_Face > How_Face	why/how task: http://www.cognitiveatlas.org/term/id/trm_53c4465b0466f	1583		theory of mind, facial emotion recognition, causal inference
+Why_Hand > How_Hand	why/how task: http://www.cognitiveatlas.org/term/id/trm_53c4465b0466f	1584		theory of mind, causal inference
+Why_Nonsocial > How_Nonsocial	why/how task: http://www.cognitiveatlas.org/term/id/trm_53c4465b0466f	1585		causal inference
+[Why_Face > How_Face] > [Why_Nonsocial > How_Nonsocial]	why/how task: http://www.cognitiveatlas.org/term/id/trm_53c4465b0466f	1586		theory of mind, facial emotion recognition
+[Why_Hand > How_HAnd] > [Why_Nonsocial > How_Nonsocial]	why/how task: http://www.cognitiveatlas.org/term/id/trm_53c4465b0466f	1587		theory of mind
+2*peers agree > peers higher + peers lower 	social influence for food preferences task	1925	Contrast of receiving feedback that peers agreed > peers disagreed during feedback trials.	positive social feedback
+peers higher + peers lower > 2*peers agree	social influence for food preferences task	1924	Contrast of receiving feedback that peers disagreed > peers agreed during feedback trials.	negative social feedback
+viewing unhealthy foods > viewing healthy foods 	social influence for food preferences task	1923	Contrast of viewing unhealthy foods > viewing healthy foods during feedback trials.	appetitive reward
