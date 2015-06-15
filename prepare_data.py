@@ -20,7 +20,7 @@ for termlist in images.Terms:
 concepts = numpy.unique(concepts).tolist()
 
 # Generate label with task:contrast
-labels = ["%s : %s" %(t[1].task,t[1].contrast) for t in images.iterrows()]
+labels = ["%s :: %s" %(t[1].task,t[1].contrast) for t in images.iterrows()]
 images.labels = labels
 
 # Generate contrast by concept matrix
